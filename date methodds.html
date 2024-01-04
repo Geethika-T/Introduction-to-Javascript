@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!--
+<h1>JavaScript Dates</h1>
+<h2>Using new Date()</h2>
+<p>Create a new date object with the current date and time:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getFullYear() Method</h2>
+<p>Return the full year of a date object:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25")
+document.getElementById("demo").innerHTML = d.getFullYear();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getFullYear() Method</h2>
+<p>Return the full year of a date object:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getMonth() Method</h2>
+<p>Return the month of a date as a number from 0 to 11.</p>
+<p>To get the correct month number, you must add 1:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getMonth() + 1;
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getMonth() Method</h2>
+<p>Return the month of a date as a number from 0 to 11.</p>
+<p>To get the correct month number, you must add 1:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getMonth() + 1;
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>JavaScript getMonth()</h2>
+<p>Return the month as a number.</p>
+<p>You can use an array of names to return the month as a name:</p>
+
+<p id="demo"></p>
+
+<script>
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+const d = new Date("2021-03-25");
+let month = months[d.getMonth()];
+document.getElementById("demo").innerHTML = month;
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>JavaScript getMonth()</h2>
+<p>Return the month as a number.</p>
+<p>You can use an array of names to return the month as a name:</p>
+
+<p id="demo"></p>
+
+<script>
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+const d = new Date();
+let month = months[d.getMonth()];
+document.getElementById("demo").innerHTML = month;
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getDate() Method</h2>
+<p>Return the day of a date as a number (1-31):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getDate();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getDate() Method</h2>
+<p>Return the day of a date as a number (1-31):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getDate();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getHours() Method</h2>
+<p>Return the hours of a date as a number (0-23):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25");document.getElementById("demo").innerHTML = d.getHours();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getMinutes() Method</h2>
+<p>Returns the minutes of a date as a number (0-59):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getMinutes();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getMinutes() Method</h2>
+<p>Returns the minutes of a date as a number (0-59):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getMinutes();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getSeconds() Method</h2>
+<p>Return the seconds of a date as a number (0-59):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getSeconds();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getSeconds() Method</h2>
+<p>Return the seconds of a date as a number (0-59):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getSeconds();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getMilliseconds() Method</h2>
+<p>Return the milliseconds of a date as a number (0-999):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getMilliseconds();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getMilliseconds() Method</h2>
+<p>Return the milliseconds of a date as a number (0-999):</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getMilliseconds();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getDay() Method</h2>
+<p>Return the weekday as a number:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getDay();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getDay() Method</h2>
+<p>Return the weekday as a number:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getDay();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getDay() Method</h2>
+<p>Return the weekday as a number.</p>
+<p>You can use an array of names to return the weekday as a name:</p>
+
+<p id="demo"></p>
+
+<script>
+const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const d = new Date("2021-03-25");
+let day = days[d.getDay()];
+document.getElementById("demo").innerHTML = day;
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getDay() Method</h2>
+<p>Return the weekday as a number.</p>
+<p>You can use an array of names to return the weekday as a name:</p>
+
+<p id="demo"></p>
+
+<script>
+const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+const d = new Date();
+let day = days[d.getDay()];
+document.getElementById("demo").innerHTML = day;
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getTime() Method</h2>
+<p></p>
+<p>Return the number of milliseconds since midnight January 1, 1970:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("1970-01-01");
+document.getElementById("demo").innerHTML = d.getTime();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getTime() Method</h2>
+<p></p>
+<p>Return the number of milliseconds since midnight January 1, 1970:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date("2021-03-25");
+document.getElementById("demo").innerHTML = d.getTime();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The getTime() Method</h2>
+<p></p>
+<p>Return the number of milliseconds since midnight January 1, 1970:</p>
+
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getTime();
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>The Date.now() Method</h2>
+<p>Return the current date/time in milliseconds since January 1, 1970:</p>
+
+<p id="demo"></p>
+
+<script>
+const date = Date.now();
+document.getElementById("demo").innerHTML = date;
+</script>
+
+<h1>JavaScript Dates</h1>
+<h2>Using Date.now()</h2>
+<p>Calculate the number of years since January 1, 1970:</p>
+
+<p id="demo"></p>
+
+<script>
+// Calculate milliseconds in a year
+const minute = 1000 * 60;
+const hour = minute * 60;
+const day = hour * 24;
+const year = day * 365;
+
+// Divide Date.now() with a year
+let years = Math.round(Date.now() / year);
+document.getElementById("demo").innerHTML = years;
+</script>
+-->
+<h1>JavaScript Dates</h1>
+<h2>The getTimezoneOffset() Method</h2>
+
+<p>The time zone difference in minutes is:</p>
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d.getTimezoneOffset();
+</script>
+
+</body>
+</html>
